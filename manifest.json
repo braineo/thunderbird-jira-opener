@@ -6,7 +6,7 @@
   "author": "[Your Name Here]",
   "applications": {
     "gecko": {
-      "id": "helloworld@yoursite.com",
+      "id": "binbin.ye@mujin.co.jp",
       "strict_min_version": "66.0"
     }
   },
@@ -20,9 +20,13 @@
     "default_title": "Hello World",
     "default_icon": "images/internet-32px.png"
   },
+  "options_ui": {
+    "page": "options.html"
+  },
   "permissions": [
     "accountsFolders",
-    "messagesRead"
+    "messagesRead",
+    "storage"
   ],
   "icons": {
     "64": "images/internet.png",
